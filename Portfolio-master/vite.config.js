@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'; // eslint-disable-line
-import react from '@vitejs/plugin-react'; // eslint-disable-line
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/',
+  base: '/Siddharth-s-portfolio/', // ✅ GitHub repo name here
   plugins: [react()],
   build: {
     rollupOptions: {
